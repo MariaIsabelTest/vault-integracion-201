@@ -1,0 +1,14 @@
+{
+  "name": "Vault lab",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+  "forwardPorts": [8200],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y --no-install-recommends python3 && bash infra/reiniciar-vault.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-azuretools.vscode-docker"]
+    }
+  }
+}

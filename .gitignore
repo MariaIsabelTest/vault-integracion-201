@@ -1,0 +1,17 @@
+# Arnés del agente y diseño (no subir al remoto público)
+.agent/
+.cursor/
+
+# Legacy: por si existían en versiones anteriores
+AGENTS.md
+briefing.md
+temario.md
+contexto.md
+propuesta.md
+diseno-pedagogico/
+curso.meta.json
+
+# Entorno local
+infra/.env
+__pycache__/
+*.pyc

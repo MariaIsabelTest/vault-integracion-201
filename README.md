@@ -1,0 +1,39 @@
+# HashiCorp Vault: secretos, integración y testing
+
+[Siguiente página →](labs/M01-introduccion-vault/README.md)
+
+## De qué va este curso
+
+Vault **ya está implantado** en SELAE. Este curso es para el **Departamento de Test**: sin conocer la funcionalidad y la arquitectura, las pruebas de las integraciones no son fiables.
+
+No vas a instalar el clúster de producción. Vas a entender cómo una aplicación se autentica, pide un secreto y qué debe comprobar un test cuando el token caduca, faltan permisos, el secreto no existe o rota en caliente.
+
+El laboratorio corre en el navegador (Codespace o Docker). En tu equipo no se instala nada. Detalle en [infra/README.md](infra/README.md).
+
+## Temario
+
+- **M01 — Introducción y arquitectura** — [qué problema resuelve Vault y de qué piezas está hecho](labs/M01-introduccion-vault/00-arquitectura-vault.md)
+  - [Laboratorio: primer secreto](labs/M01-introduccion-vault/01-lab-primer-secreto.md)
+- **M02 — Secretos y API** — [CLI, API REST y el motor KV con versiones](labs/M02-secretos-y-api/00-cli-api-y-kv.md)
+  - [Laboratorio: versiones y API](labs/M02-secretos-y-api/01-lab-versiones-y-api.md)
+- **M03 — Policies, tokens y seguridad** — [quién puede leer qué, y durante cuánto tiempo](labs/M03-policies-y-tokens/00-policies-tokens-auditoria.md)
+  - [Laboratorio: permisos y TTL](labs/M03-policies-y-tokens/01-lab-permisos-y-ttl.md)
+- **M04 — Autenticación** — [UserPass para personas y AppRole para aplicaciones](labs/M04-autenticacion/00-userpass-y-approle.md)
+  - [Laboratorio: AppRole](labs/M04-autenticacion/01-lab-approle.md)
+- **M05 — Integración con aplicaciones** — [inyección de secretos, script de consumo y Vault Agent](labs/M05-integracion-aplicaciones/00-integrar-aplicacion.md)
+  - [Laboratorio: consumo automático](labs/M05-integracion-aplicaciones/01-lab-consumo-automatico.md)
+- **M06 — Testing de integraciones** — [cómo diseñar la prueba y los fallos que tienes que provocar](labs/M06-testing-integraciones/00-disenar-pruebas.md)
+  - [Laboratorio: escenarios de fallo](labs/M06-testing-integraciones/01-lab-escenarios-de-fallo.md)
+
+## Antes de empezar
+
+| Requisito | Dónde |
+|-----------|--------|
+| Navegador y terminal del Codespace, o Docker | [infra/README.md](infra/README.md) |
+| Servidor limpio de laboratorio | `bash infra/reiniciar-vault.sh` y después `source infra/entorno.sh` |
+
+Cada demostración y cada laboratorio se hacen **solos**: empiezan reiniciando Vault. No hace falta haber terminado la página anterior.
+
+## Empieza aquí
+
+→ **[M01 — Introducción y arquitectura](labs/M01-introduccion-vault/00-arquitectura-vault.md)**

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "vault-integracion-201",
+      "path": "/home/david/Cursos/vault-integracion-201"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}
