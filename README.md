@@ -4,7 +4,7 @@
 
 ## De qué va este curso
 
-Vault **ya está implantado** en SELAE. Este curso es para el **Departamento de Test**: sin conocer la funcionalidad y la arquitectura, las pruebas de las integraciones no son fiables.
+Vault **ya está implantado** en la organización. Este curso va orientado a **pruebas de integración**: sin conocer la funcionalidad y la arquitectura, esas pruebas no son fiables.
 
 No vas a instalar el clúster de producción. Vas a entender cómo una aplicación se autentica, pide un secreto y qué debe comprobar un test cuando el token caduca, faltan permisos, el secreto no existe o rota en caliente.
 

@@ -2,7 +2,7 @@
 
 [← Página anterior](../../README.md) · [Siguiente página →](00-arquitectura-vault.md)
 
-Vault ya está en SELAE. Este módulo pone nombre a las piezas que vas a ver cuando pruebes una integración: dónde vive el secreto, quién puede leerlo y con qué credencial entra la aplicación.
+Vault ya está en producción en tu entorno. Este módulo pone nombre a las piezas que vas a ver cuando pruebes una integración: dónde vive el secreto, quién puede leerlo y con qué credencial entra la aplicación.
 
 ## Qué aprenderás
 

@@ -27,7 +27,7 @@ La salida muestra `Initialized` a `true` y `Sealed` a `false`. También aparece 
 
 ![vault status: Initialized true, Sealed false, versión 1.18.5](../img/M01-00-status.png)
 
-2. Al listar los motores, el camino `secret/` ya existe y es de tipo `kv`. Ahí se guardan los secretos estáticos de este curso. Otros motores (base de datos, PKI, transit) no vienen habilitados: si una integración de SELAE usa otro, el camino y el JSON de la API cambian, y el síntoma en la prueba no es el mismo.
+2. Al listar los motores, el camino `secret/` ya existe y es de tipo `kv`. Ahí se guardan los secretos estáticos de este curso. Otros motores (base de datos, PKI, transit) no vienen habilitados: si una integración real usa otro, el camino y el JSON de la API cambian, y el síntoma en la prueba no es el mismo.
 
 ```bash
 vault secrets list

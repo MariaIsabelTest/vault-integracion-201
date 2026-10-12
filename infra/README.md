@@ -36,4 +36,4 @@ Si no tienes el CLI de Vault, `entorno.sh` define una función `vault` que ejecu
 
 ## Qué no hace este entorno
 
-No reproduce el clúster, el auto-unseal ni los métodos de autenticación de SELAE. Cada laboratorio construye aquí el estado que necesita para poder hacerse solo.
+No reproduce el clúster, el auto-unseal ni los métodos de autenticación de producción. Cada laboratorio construye aquí el estado que necesita para poder hacerse solo.
