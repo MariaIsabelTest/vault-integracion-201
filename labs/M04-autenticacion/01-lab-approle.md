@@ -1,6 +1,6 @@
 # AppRole
 
-[← Página anterior](00-userpass-y-approle.md) · [Siguiente página →](../M05-integracion-aplicaciones/README.md)
+[← Página anterior](00-userpass-y-approle.md) · [Siguiente página →](02-lab-userpass.md)
 
 Vas a habilitar AppRole, entrar con `role_id` y `secret_id`, leer el secreto con el token obtenido y comprobar que un `secret_id` falso no entra.
 

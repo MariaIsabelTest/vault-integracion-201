@@ -1,6 +1,6 @@
 # Consumo automático
 
-[← Página anterior](00-integrar-aplicacion.md) · [Siguiente página →](../M06-testing-integraciones/README.md)
+[← Página anterior](00-integrar-aplicacion.md) · [Siguiente página →](02-lab-job-falla-cerrado.md)
 
 Vas a dejar un script que obtiene la clave sin usar `root`, y un Vault Agent que escribe esa misma clave en un fichero.
 

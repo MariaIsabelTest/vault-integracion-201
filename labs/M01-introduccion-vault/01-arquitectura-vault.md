@@ -1,6 +1,6 @@
 # Arquitectura de Vault
 
-[← Página anterior](README.md) · [Siguiente página →](01-lab-primer-secreto.md)
+[← Página anterior](00-que-es-vault.md) · [Siguiente página →](02-lab-primer-secreto.md)
 
 Una aplicación no «abre Vault». Pide un token a un método de autenticación y, con ese token, lee un camino de un motor de secretos. La policy decide si ese token puede leer ese camino. Esta página se sigue sola: el servidor se crea aquí.
 
@@ -51,4 +51,4 @@ La fila `token/` está presente.
 
 ## Qué queda visto
 
-El servidor de laboratorio está vacío, desellado, con KV en `secret/` y auth por token. El [laboratorio del primer secreto](01-lab-primer-secreto.md) vuelve a crear el servidor: no depende de dejar esta página a medias.
+El servidor de laboratorio está vacío, desellado, con KV en `secret/` y auth por token. El [laboratorio del primer secreto](02-lab-primer-secreto.md) vuelve a crear el servidor: no depende de dejar esta página a medias.

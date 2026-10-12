@@ -1,6 +1,6 @@
 # Versiones y API
 
-[← Página anterior](00-cli-api-y-kv.md) · [Siguiente página →](../M03-policies-y-tokens/README.md)
+[← Página anterior](00-cli-api-y-kv.md) · [Siguiente página →](02-lab-borrar-version.md)
 
 Vas a guardar dos versiones, leerlas por HTTP y dejar un script que imprime solo la clave vigente. El script es el embrión de la aplicación que probarás después.
 

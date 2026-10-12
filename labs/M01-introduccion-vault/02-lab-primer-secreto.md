@@ -1,6 +1,6 @@
 # Primer secreto
 
-[← Página anterior](00-arquitectura-vault.md) · [Siguiente página →](../M02-secretos-y-api/README.md)
+[← Página anterior](01-arquitectura-vault.md) · [Siguiente página →](03-lab-sellado.md)
 
 Vas a dejar escrito el secreto de una API de pagos y a leerlo por la CLI y por HTTP. Es el mismo gesto que hará la aplicación cuando la pruebes.
 

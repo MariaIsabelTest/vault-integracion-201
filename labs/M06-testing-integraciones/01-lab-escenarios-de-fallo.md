@@ -1,6 +1,6 @@
 # Escenarios de fallo
 
-[← Página anterior](00-disenar-pruebas.md)
+[← Página anterior](00-disenar-pruebas.md) · [Siguiente página →](02-lab-checklist.md)
 
 Vas a construir la aplicación de pagos y provocar, uno a uno, los fallos del temario. Cada paso dice el resultado antes de que mires la pantalla.
 

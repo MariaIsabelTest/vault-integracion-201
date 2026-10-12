@@ -1,6 +1,6 @@
 # Permisos y TTL
 
-[← Página anterior](00-policies-tokens-auditoria.md) · [Siguiente página →](../M04-autenticacion/README.md)
+[← Página anterior](00-policies-tokens-auditoria.md) · [Siguiente página →](02-lab-renovar-token.md)
 
 Vas a emitir el token con el que se probaría la aplicación de pagos, ver el 403 del camino prohibido, dejar el token caducar y encontrar la petición en la auditoría.
 

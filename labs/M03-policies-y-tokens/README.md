@@ -1,6 +1,6 @@
 # M03 — Policies, tokens y seguridad
 
-[← Página anterior](../M02-secretos-y-api/01-lab-versiones-y-api.md) · [Siguiente página →](00-policies-tokens-auditoria.md)
+[← Página anterior](../M02-secretos-y-api/03-lab-listar-y-variables.md) · [Siguiente página →](00-policies-tokens-auditoria.md)
 
 El token `root` del laboratorio no sirve para afirmar que una aplicación «puede leer el secreto». Puede leerlo todo. Una prueba de autorización usa un token recortado por una policy, con caducidad.
 
@@ -9,6 +9,7 @@ El token `root` del laboratorio no sirve para afirmar que una aplicación «pued
 - Escribir una policy que solo lee un camino.
 - Emitir un token con esa policy y ver un 403 en el camino de al lado.
 - Ver que el token caduca y que la auditoría guarda la petición, no una excusa en el log de la app.
+- Renovar sin pasar del máximo, y separar un perfil que lee de uno que escribe y lista.
 
 ## Teoría
 
@@ -22,5 +23,7 @@ En KV v2 el camino de la policy es `secret/data/pagos/api` para leer el valor. `
 |---|--------|---------|
 | 00 | [Policies, tokens y auditoría](00-policies-tokens-auditoria.md) | Un token que solo lee pagos |
 | 01 | [Permisos y TTL](01-lab-permisos-y-ttl.md) | 403, caducidad y rastro de auditoría |
+| 02 | [Renovar el token](02-lab-renovar-token.md) | El TTL baja, se alarga y no salta el máximo |
+| 03 | [Dos perfiles](03-lab-dos-perfiles.md) | Lector y escritor, capabilities y listado |
 
 → Empieza por **[00 — Policies, tokens y auditoría](00-policies-tokens-auditoria.md)**.
